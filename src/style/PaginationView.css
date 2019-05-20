@@ -1,0 +1,3 @@
+.paginationBox{display: flex; flex-direction: row; align-items: center; justify-content: center; margin:1vh auto; }
+.paginationBox .paginationBoxButton{background:#306cca; margin: 0 2vw; border:0; color: #fff;}
+.paginationBox .paginationBoxButton:hover{background:#1E90FF;}

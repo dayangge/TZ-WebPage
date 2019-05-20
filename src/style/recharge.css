@@ -1,0 +1,87 @@
+.rechargeBox{
+    display: flex;
+    background: -webkit-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* 标准的语法 */
+    border-radius: 10px;
+    padding: 2px;
+}
+.rechargeBox .rechargeBody{ 
+    display: flex;
+    max-height: 80vh;
+    overflow: hidden;
+    flex: 1;
+    border:1px solid #ffdc87;
+    background: -webkit-radial-gradient(#663300, #632c0c, #330033, #996633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#663300, #632c0c, #330033, #996633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#663300, #632c0c, #330033, #996633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#663300, #632c0c, #330033, #996633); /* 标准的语法 */
+    border-radius: 10px;
+    padding: 5px;
+ }
+ .rechargeBox .rechargeBody .rechargeBodyBox{ 
+    background: rgba(0, 0, 0, 0.9); 
+    background: -webkit-radial-gradient(#741671, #580f54, #4e0d4b); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#741671, #580f54, #4e0d4b); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#741671, #580f54, #4e0d4b); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#741671, #580f54, #4e0d4b); /* 标准的语法 */
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center; flex: 1;
+    padding: 40px;
+ }
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxTitle{ display: flex; color: #CCCC00; font-weight: bold; font-size: 1.5vw; width: 100%; justify-content: center; align-items: center; padding-bottom: 1vh; margin-bottom: 2vh; border-bottom: 3px solid #CCCC00;;}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBody{ display: none; flex: 1; width: 100%; flex-direction: column; justify-content: flex-start; color: #fff; }
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFlex{ display: flex;}
+
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText{ margin-bottom: 5px;}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItem label,.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText label{color: #FFF;}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText .rechargeBodyBoxBodyRechargeBody{
+    display: flex; flex: 1; flex-wrap: wrap; flex-direction: row; align-items: center; justify-content: flex-start;  color: #FFF;
+}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText .rechargeBodyBoxBodyRechargeBody span.default{
+     border:1px solid #fff; padding:0 1vw; border-radius: 0.3vw; cursor: pointer; margin:0.5vh 0.3vw; color: #FFF; line-height: 30px;
+}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText .rechargeBodyBoxBodyRechargeBody span.amountHover{
+    background: #996633; border:1px solid #deaf56;
+}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText .rechargeBodyBoxBodyRechargeBody .rechargeBodyBoxBodyRechargeInputText{ margin-left: 0.3vw;}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItemText .rechargeBodyBoxBodyRechargeBody .rechargeBodyBoxBodyRechargeInputText img{ height: 15vh;}
+
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItem .rechargeBodyBoxBodyRechargeBody{
+    display: flex; flex: 1; flex-wrap: wrap; flex-direction: row; align-items: center; justify-content: flex-start;
+}
+
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItem .rechargeBodyBoxBodyRechargeBody span.default{
+     border:1px solid #b0d73d; padding:0 1vw; border-radius: 0.3vw; cursor: pointer; margin:0.5vh 0.3vw; color: #FFF; line-height: 30px;
+}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItem .rechargeBodyBoxBodyRechargeBody span.amountHover{
+    background: #996633; border:1px solid #deaf56;
+}
+
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBodyFormItem .rechargeBodyBoxBodyRechargeBody .rechargeBodyBoxBodyRechargeInput{
+    width: 60%; margin:0 0.3vw;
+}
+
+
+
+
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBody .rechargeBodyBoxBodyRechargeBotton{
+    width: 100%; text-align: center; display: flex; flex: 1; align-items: center; flex-direction: row; justify-content: center; margin:2vh 0;
+}
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBody .rechargeBodyBoxBodyRechargeBotton span{
+    margin: 0 3vw; background:#deaf56; font-size: 1vw; color: #FFF;  padding: 0.8vh 2vw; border-radius: 5px; cursor: pointer;
+}
+
+.rechargeBox .rechargeBody .rechargeBodyBox .rechargeBodyBoxBody .rechargeBodyBoxBodyRechargeText{ font-size: 0.8vw; line-height: 1vh; color: #FFF;}
+
+
+.remindersBodyBoxBody{ display: flex; flex: 1; width: 100%; flex-direction: column; justify-content: flex-start; align-items: center;}
+.remindersBodyBoxBodyTitle {color:#fff; font-size: 0.9vw; margin-bottom: 1vw; text-align: center;}
+.remindersBodyBoxBodyInfo{color: #fff; font-size: 0.9vw; width: 100%;}
+.remindersBodyBoxBodyInfoA{display: flex; flex-direction: row; width: 100%; height: auto;justify-content: flex-start; align-items: center; }
+.remindersBodyBoxBodyInfoA span{margin-right: 1vw; margin-bottom: 1vw;}
+.remindersBodyBoxBodyInfoA span:first-child{width: 40%; text-align: right} 
+.remindersBodyBoxBodyInfoA span:last-child{border: 1px solid #b0d73d; text-align: center; color: #FFF; cursor: pointer; padding: 0 0.3vw;}
+.remindersBodyBoxBodyButton{background-color: #deaf56; color: #FFF; padding: 1vh 1.5vw; border-radius: 5px; cursor: pointer;}

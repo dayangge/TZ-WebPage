@@ -1,0 +1,8 @@
+.moreGameBox{ display: flex; width: 100%; height: 100%; flex-direction: row; justify-content: space-between; align-items: flex-start; padding:0 3vw; padding-top: 120px; box-sizing: border-box;}
+.moreGameItem{ background: url('../assets/more_bg.png') no-repeat top center; background-size: 100% auto; display: flex; flex: 1; margin:1vh 2vw; height: 80vh; flex-direction: column; justify-content: flex-start; align-items: center; box-sizing: border-box; position: relative;}
+.moreGameItemTitle{display: flex; color: #FFF; font-size: 1.8vw; font-weight: 400; letter-spacing:0.3vw; margin:5vh 0 2vh 0;}
+.moreGameItemBody{display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; padding:0 3vw; margin: 0;}
+.moreGameItemBody p{ color: #FFF; font-size: 1.2vw; font-weight: 400; text-indent: 2.2vw; line-height: 2vw; margin: 0; padding: 0;}
+.moreGameItemImg{ display: flex;  width: 25vw; justify-content: center; align-items: flex-start;}
+.moreGameItemImg img{width: 70%;}
+.moreGameItemButton{background: url('../assets/more_button.png') no-repeat center center; background-size: 100% auto; width: 15vw; height: 5vw; line-height: 5vw; text-align: center; color: #FFF; font-size: 1.2vw; font-weight: 400; letter-spacing:0.5vw; cursor: pointer; position: absolute; top: 35vw;}

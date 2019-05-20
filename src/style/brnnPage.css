@@ -1,0 +1,67 @@
+.brnnBox{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background: url('../assets/brnnMain.png') no-repeat top center;
+     background-size: 38% auto; background-position-y: 10vw;
+   
+}
+.brnnBox .brnnBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(131, 78, 0, 0.85);  
+    padding: 4vw 3.1vw; box-sizing: border-box;
+}
+.brnnBox .brnnBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.brnnBox .brnnBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: left; text-indent: 2.6vw; line-height: 2vw;}
+.brnnBox .brnnBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/h_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}
+
+
+.brnnIco3{position: absolute; top:33vh; right: 33.1vw; background: url('../assets/bjl_light_ico_4.png') no-repeat center center; width: 8vw; height: 7vw;
+    background-size: 100% auto;
+    animation:light 3s ease-in-out infinite;
+    -webkit-animation:light 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+.brnnImg1, .brnnImg2{position: absolute; left: 65vw;}
+.brnnImg1{
+    background: url('../assets/brnn_ico_1.png') no-repeat bottom center; 
+    background-size: 80% auto;width: 30vw; height: 60vw;z-index: 10; 
+    animation:bgSider 2s infinite ; 
+    -webkit-animation:bgSider 2s infinite ; /*Safari and Chrome*/
+}
+.brnnImg2{
+    background: url('../assets/b2rnn_ico_1.png') no-repeat bottom center; 
+    background-size: 80% auto;width: 30vw; height: 60vw;
+}
+@keyframes bgSider
+{
+    0%   { opacity: 0; }
+    50%{opacity: 1;}
+    100%  { opacity: 0;}
+}
+
+@-webkit-keyframes bgSider /*Safari and Chrome*/
+{
+    0%   { opacity: 0; }
+    50%{opacity: 1;}
+    100%  { opacity: 0;}
+}
+
+@keyframes light
+{    
+    0%   {transform: scale(1)}
+    25%  {transform: scale(0);}
+    50% {transform: scale(1);}
+    75% {transform: scale(0);}
+}
+
+@-webkit-keyframes light /*Safari and Chrome*/
+{
+    0%   {-webkit-transform: scale(1)}
+    25%  {-webkit-transform: scale(0);}
+    50% {-webkit-transform: scale(1);}
+    75% {-webkit-transform: scale(0);}
+}

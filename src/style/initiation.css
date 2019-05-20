@@ -1,0 +1,46 @@
+.initiationBox{
+    display: flex;
+    background: -webkit-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* 标准的语法 */
+    border-radius: 10px;
+    padding: 2px;
+}
+.initiationBox .initiationBody{ 
+    display: flex;
+    flex: 1;
+    border:1px solid #ffdc87;
+    background: -webkit-radial-gradient(#663300, #632c0c, #330033, #996633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#663300, #632c0c, #330033, #996633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#663300, #632c0c, #330033, #996633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#663300, #632c0c, #330033, #996633); /* 标准的语法 */
+    border-radius: 10px;
+    padding: 5px;
+ }
+ .initiationBox .initiationBody .initiationBodyBox{ 
+    background: rgba(0, 0, 0, 0.9); 
+    background: -webkit-radial-gradient(#741671, #580f54, #4e0d4b); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#741671, #580f54, #4e0d4b); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#741671, #580f54, #4e0d4b); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#741671, #580f54, #4e0d4b); /* 标准的语法 */
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center; flex: 1;
+    padding: 20px;
+ }
+ .initiationBox .initiationBody .initiationBodyBox .initiationBodyBoxTitle{ display: flex; color: #CCCC00; font-weight: bold; font-size: 1.5vw; width: 100%; justify-content: center; align-items: center; padding-bottom: 1vh; margin-bottom: 2vh; border-bottom: 3px solid #CCCC00;;}
+ .initiationBox .initiationBody .initiationBodyBox .initiationBodyBoxBody{ display: flex; flex: 1; width: 100%; flex-direction: column; justify-content: flex-start; align-items: center;}
+ .initiationBox .initiationBody .initiationBodyBox .initiationBodyBoxBody .initiationBodyBoxBodyInfo{color: #fff; font-size: 18px; margin: 0.5vw 0; font-weight: bold;}
+ .initiationBox .initiationBody .initiationBodyBox .initiationBodyBoxBody .initiationBodyBoxButton{ display: flex; width: 100%; flex-direction: row; justify-content: space-around; align-items: center; margin-top: 3vh;}
+ .initiationBox .initiationBody .initiationBodyBox .initiationBodyBoxBody .initiationBodyBoxButton .initiationLoginButton{ font-size: 1vw; font-weight: 400; background-color: #deaf56; color: #FFF; padding: 0.5vh 1.5vw; border-radius: 5px; cursor: pointer;}
+ .initiationBox .initiationBody .initiationBodyBox .initiationBodyBoxBody .initiationBodyBoxButton .initiationRegisterButton{ font-size: 1vw; font-weight: 400; background-color: #996633; color: #FFF; padding: 0.5vh 1.5vw; border-radius: 5px; cursor: pointer;}
+
+
+
+
+
+
+
+
+

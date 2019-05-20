@@ -1,0 +1,95 @@
+.dzpkBox{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background-size: 40% auto; 
+    background-position-y: 5vw;
+}
+.dzpkBox .dzpkBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(144, 20, 144, 0.85); 
+    padding: 2vw 3.1vw; box-sizing: border-box; z-index: 100;
+}
+.dzpkLight{ 
+    position: absolute; top: 48vh; right: 26vw; z-index: 1000; width: 19px; height:7px;
+    background: url('../assets/dzplLight.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:light 3s infinite;
+    -webkit-animation:light 3s infinite; /*Safari and Chrome*/
+}
+.dzpkBox .dzpkBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.dzpkBox .dzpkBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: left; text-indent: 2.6vw; line-height: 2vw;}
+.dzpkBox .dzpkBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/b_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}
+.dzpkImg1,.dzpkImg2,.dzpkImg3{position: absolute; top:-1vw}
+.dzpkImg1{
+    background: url('../assets/dzpkMain.png') no-repeat left top;
+     background-position-x: 10vw; background-position-y: 3vh; background-size: 70% auto;
+     animation:bgSider 2s infinite linear;  width: 60vw; height: 40vw; z-index: 10;
+    -webkit-animation:bgSider 2s infinite linear; /*Safari and Chrome*/
+}
+.dzpkImg2{
+    background: url('../assets/dzpkMain1.png') no-repeat left top;
+     background-position-x: 10vw; background-position-y: 3vh; background-size: 70% auto;
+     animation:bgSider1 2s infinite linear;  width: 60vw; height: 40vw;  z-index: 10;
+    -webkit-animation:bgSider1 2s infinite linear; /*Safari and Chrome*/
+}
+.dzpkImg3{
+    background: url('../assets/dzpkMain2.png') no-repeat left top;
+     background-position-x: 10vw; background-position-y: 3vh; background-size: 70% auto;
+      width: 60vw; height: 40vw; 
+  
+}
+
+@keyframes bgSider
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+
+@-webkit-keyframes bgSider /*Safari and Chrome*/
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+@keyframes bgSider1
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+
+@-webkit-keyframes bgSider1 /*Safari and Chrome*/
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+@keyframes light
+{    
+    0%   {transform: scale(1)}
+    25%  {transform: scale(10);}
+    50% {transform: scale(1);}
+    75% {transform: scale(10);}
+}
+
+@-webkit-keyframes light /*Safari and Chrome*/
+{
+    0%   {transform: scale(1)}
+    25%  {transform: scale(10);}
+    50% {transform: scale(1);}
+    75% {transform: scale(10);}
+}

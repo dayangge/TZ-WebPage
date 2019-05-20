@@ -1,0 +1,186 @@
+.bjlBox{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;   
+    flex-direction: column; justify-content: flex-end; align-items: center;
+}
+.bjlBox .bjlBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(146, 131, 201, 0.85); 
+    padding: 4vw 3.1vw; box-sizing: border-box; z-index: 100;
+}
+.bjlBox .bjlBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.bjlBox .bjlBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: left; text-indent: 2.6vw; line-height: 2vw;}
+.bjlBox .bjlBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/g_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}
+
+.bjlIco1{position: absolute; top:55vh; right: 12vw; background: url('../assets/bjl_ico_1.png') no-repeat center center; width: 11vw; height: 8vw;
+    background-size: 100% auto;
+}
+.bjlIco2{position: absolute; top:42vh; right: 29vw; background: url('../assets/bjl_ico_2.png') no-repeat center center; width: 6vw; height: 6vw;
+    background-size: 100% auto;
+    animation:ico2 1s ease-in-out infinite;
+    -webkit-animation:ico2 1s ease-in-out infinite; /*Safari and Chrome*/
+}
+.bjlIco3{position: absolute; top:58vh; right: 26vw; background: url('../assets/bjl_ico_3.png') no-repeat center center; width: 3vw; height: 2vw;
+    background-size: 100% auto;
+    animation:ico3 3s ease-in-out infinite;
+    -webkit-animation:ico3 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+.bjlIco4{position: absolute; top:63vh; right: 21vw; background: url('../assets/bjl_ico_4.png') no-repeat center center; width: 1.5vw; height: 1vw;
+    background-size: 100% auto;
+    animation:ico4 3s ease-in-out infinite;
+    -webkit-animation:ico4 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+
+
+.bjlIco5{position: absolute; top:77.3vh; left: 5.5vw; background: url('../assets/bjl_light_ico_1.png') no-repeat center center; width: 4vw; height: 3vw;
+    background-size: 100% auto;
+    animation:light 3s ease-in-out infinite;
+    -webkit-animation:light 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+
+.bjlIco6{position: absolute; top:79vh; left: 30.8vw; background: url('../assets/bjl_light_ico_2.png') no-repeat center center; width: 6vw; height: 5vw;
+    background-size: 100% auto;
+    animation:light2 3s ease-in-out infinite;
+    -webkit-animation:light2 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+
+.bjlIco7{position: absolute; top:79vh; left: 58.2vw; background: url('../assets/bjl_light_ico_3.png') no-repeat center center; width: 5vw; height: 4vw;
+    background-size: 100% auto;
+    animation:light2 3s ease-in-out infinite;
+    -webkit-animation:light2 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+
+.bjlIco8{position: absolute; top:79vh; right: 6vw; background: url('../assets/bjl_light_ico_4.png') no-repeat center center; width: 3vw; height: 2vw;
+    background-size: 100% auto;
+    animation:light 3s ease-in-out infinite;
+    -webkit-animation:light 3s ease-in-out infinite; /*Safari and Chrome*/
+}
+
+/*asdasdasdas*/
+.bjlImg1,.bjlImg2,.bjlImg3{
+    position: absolute; bottom:20.5vw
+}
+.bjlImg1{background: url('../assets/bjlMain.png') no-repeat top center;
+     background-size: 75% auto; background-position-y: 6vw; width: 60vw; height: 30vw; z-index: 10;
+     animation:img1 2s infinite linear;
+    -webkit-animation:img1 2s infinite linear; /*Safari and Chrome*/
+    }
+.bjlImg2{background: url('../assets/bjlMain1.png') no-repeat top center;
+     background-size: 75% auto; background-position-y: 6vw; width: 60vw; height: 30vw; z-index: 10;
+     animation:img2 2s infinite linear;
+    -webkit-animation:img2 2s infinite linear; /*Safari and Chrome*/
+     }
+.bjlImg3{background: url('../assets/bjlMain2.png') no-repeat top center;
+     background-size: 75% auto; background-position-y: 6vw; width: 60vw; height: 30vw; 
+    }
+@keyframes img1
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+
+@-webkit-keyframes img1 /*Safari and Chrome*/
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+@keyframes img2
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+
+@-webkit-keyframes img2 /*Safari and Chrome*/
+{
+    0% { opacity: 1; }
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%  { opacity: 1;}
+}
+@keyframes ico2
+{    
+   50% {transform: translateY(1vh);}
+   100% {transform: translateY(0);}
+}
+@-webkit-keyframes ico2 /*Safari and Chrome*/
+{
+   50% {-webkit-transform: translateY(1vh);}
+   100% {-webkit-transform: translateY(0);}
+}
+
+@keyframes ico3
+{    
+    0%   {transform:scale(1);}
+    25%  {transform:scale(0);}
+    50% {transform:scale(1);}
+    75% {transform:scale(0);}
+}
+
+@-webkit-keyframes ico3 /*Safari and Chrome*/
+{
+    0%   {-webkit-transform:scale(1);}
+    25%  {-webkit-transform:scale(0);}
+    50% {-webkit-transform:scale(1);}
+    75% {-webkit-transform:scale(0);}
+}
+
+@keyframes ico4
+{    
+    0%   {transform:rotate(0deg)  scale(1)}
+    25%  {transform:rotate(180deg) scale(0);}
+    50% {transform:rotate(270deg) scale(1);}
+    75% {transform:rotate(360deg) scale(0);}
+}
+
+@-webkit-keyframes ico4 /*Safari and Chrome*/
+{
+    0%   {-webkit-transform:rotate(0deg) scale(1);}
+    25%  {-webkit-transform:rotate(180deg) scale(0);}
+    50% {-webkit-transform:rotate(270deg)  scale(1);}
+    75% {-webkit-transform:rotate(360deg)  scale(0);}
+}
+
+@keyframes light
+{    
+    0%   {transform: scale(1)}
+    25%  {transform: scale(0);}
+    50% {transform: scale(1);}
+    75% {transform: scale(0);}
+}
+
+@-webkit-keyframes light /*Safari and Chrome*/
+{
+    0%   {-webkit-transform: scale(1)}
+    25%  {-webkit-transform: scale(0);}
+    50% {-webkit-transform: scale(1);}
+    75% {-webkit-transform: scale(0);}
+}
+@keyframes light2
+{    
+    0%   {transform: scale(1)}
+    25%  {transform: scale(0.5);}
+    50% {transform: scale(1);}
+    75% {transform: scale(0.5);}
+}
+
+@-webkit-keyframes light2 /*Safari and Chrome*/
+{
+    0%   {-webkit-transform: scale(1)}
+    25%  {-webkit-transform: scale(0.5);}
+    50% {-webkit-transform: scale(1);}
+    75% {-webkit-transform: scale(0.5);}
+}

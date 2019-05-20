@@ -1,0 +1,19 @@
+.hallBox{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background: url('../assets/hallMain.png') no-repeat center center; background-size: 60% auto; 
+    background-position-x: 28vw;
+}
+.hallBox .hallBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(144, 20, 144, 0.85); 
+    padding: 4vw 3.1vw; box-sizing: border-box;
+}
+.hallBox .hallBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.hallBox .hallBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: center; text-indent: 2.6vw; line-height: 1.6vw;}
+.hallBox .hallBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/b_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}

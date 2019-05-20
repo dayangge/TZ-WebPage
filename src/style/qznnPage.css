@@ -1,0 +1,119 @@
+.qznnBox{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background: url('../assets/qznnMain.png') no-repeat top center; background-size: 40% auto; 
+    background-position-y: 10vw;
+    
+}
+.qznnBox .qznnBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(217, 123, 53, 0.85); z-index: 1000;
+    padding: 4vw 3.1vw; box-sizing: border-box;
+}
+.qznnBox .qznnBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.qznnBox .qznnBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: left; text-indent: 2.6vw; line-height: 2vw;}
+.qznnBox .qznnBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/f_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}
+
+
+.qznnMoneyOne{
+    position: absolute; top: 23vh; right: 64vw; z-index: 10; width: 6vw; height:6vw;
+    background: url('../assets/qznnmoney.png') no-repeat top center;
+    background-size: 100% auto; 
+}
+.qznnMoneyTwo{
+    position: absolute; top: 26vh; right: 59vw; z-index: 1000; width: 3vw; height:3vw;
+    background: url('../assets/qznnmoney1.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 7s infinite linear;
+    -webkit-animation:one 7s infinite linear; 
+}
+.qznnMoneyThree{
+    position: absolute; top: 27vh; right: 41vw; z-index: 1000; width: 2vw; height:2vw;
+    background: url('../assets/qznnmoney2.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 5s infinite linear;
+    -webkit-animation:one 5s infinite linear;
+}
+.qznnMoneyFour{
+    position: absolute; top: 31vh; right: 27vw; z-index: 1000; width: 5vw; height:5vw;
+    background: url('../assets/qznnmoney3.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 6s infinite linear;
+    -webkit-animation:one 6s infinite linear;
+}
+
+.qznnMoneyFive{
+    position: absolute; top: 64vh; right: 63vw; z-index: 1000; width: 4vw; height:4vw;
+    background: url('../assets/qznnmoney4.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 7s infinite linear;
+    -webkit-animation:one 7s infinite linear;
+}
+.qznnMoneySix{
+    position: absolute; top: 25vh; right: 33vw; z-index: 1000; width: 3vw; height:3vw;
+    background: url('../assets/qznnmoney5.png') no-repeat top center; 
+    background-size: 100% auto; 
+    animation:one 7s infinite linear;
+    -webkit-animation:one 7s infinite linear;
+}
+    .qznnCharacter,.qznnCharacter1{position: absolute; left: 67vw; }
+
+    .qznnCharacter{ 
+      background: url('../assets/f_ico1.png') no-repeat bottom center; 
+       background-size:100% auto;  width: 30vw; height: 60vw; 
+
+         animation:bgSider 3s  infinite  linear;
+        -webkit-animation:bgSider 3s infinite linear; z-index: 10;
+        }
+        .qznnCharacter1{ background: url('../assets/f_2ico1.png') no-repeat bottom center;  background-size: 100% auto;  width: 30vw; height: 60vw; }
+
+    @keyframes bgSider
+  {
+    0%   { opacity: 0; }
+    50%{opacity: 1;}
+    100%  { opacity: 0;}
+          
+  }
+  
+  @-webkit-keyframes bgSider /*Safari and Chrome*/
+  {
+    0%   { opacity: 0; }
+    50%{opacity: 1;}
+    100%  { opacity: 0;}
+  }
+
+@keyframes one {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @-webkit-keyframes one {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  

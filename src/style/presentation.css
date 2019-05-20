@@ -1,0 +1,52 @@
+.presentationBox{
+    display: flex;
+    background: -webkit-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#CCCC00, #FF9900, #deaf56, #996633); /* 标准的语法 */
+    border-radius: 10px;
+    padding: 2px;
+}
+.presentationBox .presentationBody{ 
+    display: flex;
+    flex: 1;
+    border:1px solid #ffdc87;
+    background: -webkit-radial-gradient(#663300, #632c0c, #330033, #996633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#663300, #632c0c, #330033, #996633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#663300, #632c0c, #330033, #996633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#663300, #632c0c, #330033, #996633); /* 标准的语法 */
+    border-radius: 10px;
+    padding: 5px;
+ }
+ .presentationBox .presentationBody .presentationBodyBox{ 
+    background: rgba(0, 0, 0, 0.9); 
+    background: -webkit-radial-gradient(#741671, #580f54, #4e0d4b); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#741671, #580f54, #4e0d4b); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#741671, #580f54, #4e0d4b); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#741671, #580f54, #4e0d4b); /* 标准的语法 */
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center; flex: 1;
+    padding: 20px;
+ }
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxTitle{ display: flex; color: #CCCC00; font-weight: bold; font-size: 1.5vw; width: 100%; justify-content: center; align-items: center; padding-bottom: 1vh; margin-bottom: 2vh; border-bottom: 3px solid #CCCC00;;}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody .presentationBodyBoxBodyText{display: flex;align-items: center; justify-content: flex-end; flex-direction:row;  }
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody .presentationBodyBoxBodyText  label{color:#fff}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody .presentationBodySearch button{ background:#b0d73d; cursor: pointer; border:0; color:#fff;}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody .presentationBodySearch{width: 100%; text-align: center;}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody{color: #fff;}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody .presentationBodyBoxBodyTitle{width: 100%; text-align: center; margin-bottom:10px; }
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodyBoxBody .presentationBodyBoxBodyPrintCode{margin:10px 0 ;}
+
+
+
+ .goldTransferSearch{display: flex;  align-items: center;width: 100%; flex-direction: row; justify-content: center; }
+ .goldTransferSearch button{margin-left: 3vw; border:0; color: #fff; background: #b0d73d}
+ .fundPassword{ display: flex; align-items: center; width: 100%; flex-direction: row; justify-content: center; color: #fff;}
+ .checkbox {color:#fff;}
+
+ .presentationBox .presentationBody .presentationBodyBox  label{color:#fff}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodySearch button{ background:#b0d73d; cursor: pointer; border:0; color:#fff;}
+ .presentationBox .presentationBody .presentationBodyBox .presentationBodySearch{width: 100%; text-align: center;}
+
+

@@ -1,0 +1,137 @@
+.zjhBox{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background: url('../assets/zjhMain.png') no-repeat top center; background-size: 60% auto; 
+    background-position-y: 5vw;
+}
+.zjhBox .zjhBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(157, 41, 52, 0.85); z-index: 1000;
+    padding: 4vw 3.1vw; box-sizing: border-box;
+}
+.zjhBox .zjhBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.zjhBox .zjhBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: left; text-indent: 2.6vw; line-height: 2vw;}
+.zjhBox .zjhBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/e_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}
+
+.zjhBox .fireworks{ position: absolute; top: 70vh; right: 18vw; z-index: 1000; width: 2vw; height:4vw;
+    background: url('../assets/fireworks.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:light 2s infinite linear;
+    -webkit-animation:light 2s infinite linear; /*Safari and Chrome*/
+}
+
+.zjhBox .fireworksTow{ position: absolute; top: 75vh; right: 65vw; z-index: 10; width: 3vh; height:5vh;
+    background: url('../assets/fireworks1.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:light 1.5s infinite linear;
+    -webkit-animation:light 1.5s infinite linear; /*Safari and Chrome*/
+}
+.moneyOne{
+    position: absolute; top: 10vh; right: 23vw; z-index: 1000; width: 8vw; height:8vw;
+    background: url('../assets/money.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 5s infinite linear;
+    -webkit-animation:one 5s infinite linear; /*Safari and Chrome*/
+}
+.moneyTwo{
+    position: absolute; top: 18vh; right: 29vw; z-index: 1000; width: 8vw; height:8vw;
+    background: url('../assets/money4.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 6s infinite linear;
+    -webkit-animation:one 6s infinite linear; /*Safari and Chrome*/
+}
+.moneyThree{
+    position: absolute; top: 26vh; right: 24vw; z-index: 1000; width: 8vw; height:8vw;
+    background: url('../assets/money2.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 7s infinite linear;
+    -webkit-animation:one 7s infinite linear; /*Safari and Chrome*/
+}
+.moneyFour{
+    position: absolute; top: 40vh; right: 27vw; z-index: 1000; width: 8vw; height:8vw;
+    background: url('../assets/money.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 5s infinite linear;
+    -webkit-animation:one 5s infinite linear; /*Safari and Chrome*/
+}
+.moneyFive{
+    position: absolute; top: 12vh; right: 61vw; z-index: 1000; width: 8vw; height:8vw;
+    background: url('../assets/money.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 6s infinite linear;
+    -webkit-animation:one 6s infinite linear; /*Safari and Chrome*/
+}
+
+.moneySix{
+    position: absolute; top: 20vh; right: 58vw; z-index: 1000; width: 8vw; height:8vw;
+    background: url('../assets/money1.png') no-repeat top center;
+    background-size: 100% auto; 
+    animation:one 7s infinite linear;
+    -webkit-animation:one 7s infinite linear; /*Safari and Chrome*/
+}
+.moneySeven{
+    position: absolute; top: 11vh; right: 75vw; z-index: 10; width: 10vw; height:10vw;
+    background: url('../assets/money3.png') no-repeat top center;
+    background-size: 100% auto;  
+}
+
+@keyframes light
+{    
+    0%   {transform: scale(0) translate(0px, 0px);opacity:1;}
+    20%   {transform: scale(2) translate(0px, -10px);opacity:1;}
+    40%   {transform: scale(4) translate(0px, -12px);opacity:1;}
+    60%   {transform: scale(6) translate(0px, -14px);opacity:0.8;}
+    70%   {transform: scale(7) translate(0px, -15px);opacity:0.6;}    
+    80%   {transform: scale(8) translate(0px, -16px);opacity:0.4;}
+    90%   {transform: scale(9) translate(0px, -17px);opacity:0.2;}
+    100% {transform: scale(10) translate(0px, -18px);opacity:0;}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+@-webkit-keyframes light
+{    
+    0%   {transform: scale(0) translate(0px, 0px);opacity:1;}
+    20%   {transform: scale(2) translate(0px, -10px);opacity:1;}
+    40%   {transform: scale(4) translate(0px, -12px);opacity:1;}
+    60%   {transform: scale(6) translate(0px, -14px);opacity:0.8;}
+    70%   {transform: scale(7) translate(0px, -15px);opacity:0.6;}    
+    80%   {transform: scale(8) translate(0px, -16px);opacity:0.4;}
+    90%   {transform: scale(9) translate(0px, -17px);opacity:0.2;}
+    100% {transform: scale(10) translate(0px, -18px);opacity:0;}
+} 
+
+@keyframes one {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @-webkit-keyframes one {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  

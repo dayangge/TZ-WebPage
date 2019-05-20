@@ -1,0 +1,36 @@
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Microsoft Yahei';
+}
+
+body {
+  margin: 0;
+}
+.ant-tabs-nav .ant-tabs-tab{
+  color: #FFF;
+}
+.ant-form-item-label > label{
+  color: white;
+}
+.ant-drawer-content,.ant-modal-content,.ant-select-selection,.ant-input,.ant-input[disabled]{ 
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  color: #FFF;
+}
+.ant-collapse-header{ width: 100%;}
+.ant-input-affix-wrapper .ant-input-suffix,.ant-input,.ant-input-password-icon{ color: rgba(255, 255, 255, 0.8);}
+.ant-checkbox-wrapper,.ant-select,.ant-select-arrow{ color: rgba(255, 255, 255, 0.8)}
+.ant-calendar-picker input{ background: transparent;}
+.ant-calendar-picker .ant-calendar-picker-icon{ color: rgba(255, 255, 255, 0.8);}
+.ant-form-explain, .ant-form-extra{ color: #CCCC00;}
+.ant-modal-close{ color: #FFF; font-weight: bolder; 
+    background: -webkit-radial-gradient(rgba(255,255, 255, 0), rgba(255,255, 255, 0), rgba(255,255, 255, 0.2), rgba(255,255, 255, 0)); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(rgba(255,255, 255, 0), rgba(255,255, 255, 0), rgba(255,255, 255, 0.2), rgba(255,255, 255, 0)); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(rgba(255,255, 255, 0), rgba(255,255, 255, 0), rgba(255,255, 255, 0.2), rgba(255,255, 255, 0)); /* Firefox 3.6 - 15 */
+    background: radial-gradient(rgba(255,255, 255, 0), rgba(255,255, 255, 0), rgba(255,255, 255, 0.2), rgba(255,255, 255, 0)); /* 标准的语法 */
+  right: 20px; top: 20px; border-radius: 35px;}
+.ant-modal-close:hover{ color: #FFF; background: rgba(255,255, 255, 0.4);}
+.ant-modal-close span{ font-size: 1.2vw;}
+
+.ant-modal-confirm .ant-modal-body{ background: #FFF; border-radius: 10px;}

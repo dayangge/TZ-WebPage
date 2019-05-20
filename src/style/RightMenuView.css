@@ -1,0 +1,78 @@
+.drawerBox{ 
+    position: absolute; top: 14vh; right:0;  padding-right: 1vw;
+    overflow: hidden;
+    display: flex; flex: 1; width: 15vw; height: 68vh; flex-direction: column; justify-content: flex-start; align-items: flex-start; border-radius: 0; 
+}
+.menuBox{
+    position: absolute; top: 0; right: 0; z-index: 100; padding-right: 1vw;
+    overflow: hidden;
+    display: flex; flex: 1; width: 6vw; height: 68vh; flex-direction: column; justify-content: flex-start; align-items: flex-start; border-radius: 0; 
+}
+.menuBoxItem{
+    position: relative; right: -8vw; display: flex; flex: 1;
+    background: url('../assets/home_next.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 100%;  justify-content: center; align-items: center; cursor: pointer;
+    color: #FFF; font-weight: bold; font-size: 1.1vw; letter-spacing:0.3vw;
+}
+
+.menuBoxItemA{transition: all 0.1s linear;}
+.menuBoxItemB{transition: all 0.2s linear;}
+.menuBoxItemC{transition: all 0.3s linear;}
+.menuBoxItemD{transition: all 0.4s linear;}
+.menuBoxItemE{transition: all 0.5s linear;}
+.menuBoxItemRight{right: 0; animation:homeNextButtonIco 1.2s infinite; -webkit-animation:homeNextButtonIco 1.2s infinite; /*Safari and Chrome*/}
+
+
+.menuLiBox{
+    position: absolute; top: 0; right: 7vw;
+    display: flex; flex: 1; width: 6vw; height: 68vh; flex-direction: column; justify-content: flex-start; align-items: flex-start; border-radius: 0; 
+}
+
+.menuLiBoxItem{
+    position: absolute; display: flex; flex-direction: column; top: 0;
+    width: 100%; height: auto; justify-content: flex-start; align-items: center;
+    transition: all 0.5s linear;
+}
+
+.menuLiBoxItemA{ top: 0;}
+.menuLiBoxItemB{ top: 13.6vh;}
+.menuLiBoxItemC{ top: 27.2vh;}
+.menuLiBoxItemD{ top: 40.8vh;}
+
+.menuLiBoxItemLi{
+    position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; right: -15vw;
+    width: 100%; height: 4.2vh; margin-bottom: 0.5vh;
+    background: url('../assets/menu_li2.png') no-repeat center center; background-size: auto 100%; box-sizing: border-box;
+    color: #FFF; font-size: 0.8vw;  cursor: pointer; z-index: 101;
+}
+.menuLiBoxItemLi:hover{
+    background: url('../assets/menu_li_hover.png') no-repeat center center; background-size: auto 100%;
+    transform:scale(1.1);
+}
+
+.menuLiBoxItemLiA{
+    transition: all 0.1s linear;
+}
+.menuLiBoxItemLiB{
+    transition: all 0.2s linear;
+}
+.menuLiBoxItemLiC{
+    transition: all 0.3s linear;
+}
+.menuLiBoxItemLiD{
+    transition: all 0.4s linear;
+}
+.menuLiBoxItemRight{right: 0;}
+
+@keyframes homeNextButtonIco
+{    
+   0% {transform:scale(1);}
+   50% {transform:scale(0.8);}
+   100% {transform:scale(1);}
+}
+@-webkit-keyframes homeNextButtonIco /*Safari and Chrome*/
+{
+   0% {transform:scale(1);}
+   50% {transform:scale(0.8);}
+   100% {transform:scale(1);}
+}

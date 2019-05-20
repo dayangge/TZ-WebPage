@@ -1,0 +1,51 @@
+
+.section{overflow: hidden;}
+.container{width: 100%;height: 100%; position: relative; transform: translate3d(0px, 0px, 0px); transition: all 1000ms ease;}
+
+.backTopIcoBox{position: absolute; bottom: 5vh; right: 1vw; z-index: 99999999; color: #FFF; font-size: 2vw; cursor: pointer;}
+
+.icoList{position: fixed; display: flex; width: 100%; flex: 1; justify-content: space-around; align-items: center; height: 12vh; bottom: 0; background:rgba(0, 0, 0, 0.8); transform: translate3d(0px, 0px, 0px); transition: all 1000ms ease;}
+.icoList span.hover{ background: url('../assets/ico_botton.png') no-repeat center center; background-size: auto 12vh;}
+.icoList span{height: 12vh; display: flex; flex: 1; justify-content: center; align-items: center;}
+.icoList span img{ height: 10vh; cursor: pointer;}
+
+.copyRight{position: fixed; display: flex; width: 100%; bottom: 0; color: #FFF; flex: 1; justify-content: space-around; align-items: center; height: 4vh; background:rgba(0, 0, 0, 1);}
+
+
+.homePageBg{ 
+  background: url(../assets/a_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.homeBox{ width: 100%; padding:20px;}
+.hallBg{ 
+  background: url(../assets/b_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.dzpkBg{ 
+  background: url(../assets/c_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.ebgBg{ 
+  background: url(../assets/d_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.zjhBg{ 
+  background: url(../assets/e_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.qznnBg{ 
+  background: url(../assets/f_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.bjlBg{ 
+  background: url(../assets/g_bg.png) no-repeat center top;
+  background-size: 100% 100%;
+}
+.brnnBg{ 
+  background: url(../assets/h_bg.jpg) no-repeat center top;
+  background-size: 100% 100%;
+}
+.gdyxBg{ 
+  background: url(../assets/i_bg.png) no-repeat center top;
+  background-size: 100% 100%;
+}

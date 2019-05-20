@@ -1,0 +1,270 @@
+.ebgBox { 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background-size: 60% auto; 
+    background-position-y: 5vw; 
+    position: relative;
+}
+.ebgBox .ebgMain{ 
+    width: 100%; padding-top: 0px; height: 100%; display: flex; position: relative;
+    flex-direction: column; justify-content: flex-end; align-items: center;
+    background: url('../assets/ebgMain.png') no-repeat top center; background-size: 60% auto; 
+    background-position-y: 5vw; z-index: 1000;
+}
+.ebgBox .ebgBoxInfo{ 
+    position: absolute; top:16vh; left: 3vw;
+    width: 30vw; height: 30vw; border-radius: 30vw; background:rgba(209, 177, 57, 0.85);
+    padding: 2vw 3.1vw; box-sizing: border-box;
+}
+.ebgBox .ebgBoxInfo .title{ font-size: 1.8vw; font-weight: 400; color: #FFF; padding-bottom: 1vw; text-align: center;}
+.ebgBox .ebgBoxInfo .body{ font-size: 1.3vw; font-weight: 400; color: #FFF; text-align: left; text-indent: 2.6vw; line-height: 2vw;}
+.ebgBox .ebgBoxButton{ 
+    display: flex; justify-content: center; align-items: center;
+    background: url('../assets/d_button.png') no-repeat center center; background-size: 100% auto; box-sizing: border-box;
+    width: 20vw; height: 5vw; text-align: center; color: #FFF; font-size: 2vw; font-weight: 400;  margin-bottom: 10vh;
+    letter-spacing:0.5vw; cursor: pointer;
+}
+
+.ebgBox .ebgLeft{ position: absolute; top: 8vw; right: 45vw; z-index: 1000; width: 4vw; height:9vw;
+    background: url('../assets/ebg1.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:swing 2s infinite;
+    -webkit-animation:swing 2s infinite; /*Safari and Chrome*/
+}
+
+.ebgBox .ebgCenter{ position: absolute; top: 7vw; right: 42vw; z-index: 1000; width: 4vw; height:9vw;
+    background: url('../assets/ebg.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:dong 2s infinite;
+    -webkit-animation:dong 2s infinite; /*Safari and Chrome*/
+}
+.ebgBox .ebgRight{ position: absolute; top: 8vw; right: 39vw; z-index: 1000; width: 4vw; height:9vw;
+    background: url('../assets/ebg1.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:light 2s infinite;
+    -webkit-animation:light 2s infinite; /*Safari and Chrome*/
+}
+.ebgFlower1{
+    position: absolute; top: 15vw; right: 28vw; z-index: 1000; width: 6vw; height:9vw;
+    background: url('../assets/flower1.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:flower1 9s infinite linear; z-index: 100;
+    -webkit-animation:flower1 9s infinite linear; /*Safari and Chrome*/
+}
+.ebgFlower2{
+    position: absolute; top: 18vw; right: 26vw; z-index: 1000; width: 6vw; height:9vw;
+    background: url('../assets/flower5.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:flower2 8s infinite linear; z-index: 100;
+    -webkit-animation:flower2 8s infinite linear;
+}
+.ebgFlower3{
+    position: absolute; top: 22vw; right: 23vw; z-index: 1000; width: 6vw; height:9vw;
+    background: url('../assets/flower2.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:flower3 8s infinite linear; z-index: 100;
+    -webkit-animation:flower3 8s infinite linear;
+}
+.ebgFlower4{
+    position: absolute; top: 23.5vw; right: 20vw; z-index: 1000; width: 6vw; height:9vw;
+    background: url('../assets/flower3.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:flower4 7s infinite linear; z-index: 100;
+    -webkit-animation:flower4 7s infinite linear;
+}
+.ebgFlower5{
+    position: absolute; top: 30vw; right: 17vw; z-index: 1000; width: 6vw; height:9vw;
+    background: url('../assets/flower4.png') no-repeat center center;
+    background-size: 100% auto; 
+    animation:flower5 6s infinite linear; z-index: 100;
+    -webkit-animation:flower5 6s infinite linear;
+}
+@keyframes dong { 
+    0% {             
+        transform: translate(0px, 0px);            
+     }            
+     50% {                
+        transform: translate(0px, -10px);            
+     }            
+     100% {                
+        transform: translate(0px, 0px);
+     }
+}
+@-webkit-keyframes dong /*Safari and Chrome*/
+{
+    0% {             
+        transform: translate(0px, 0px);            
+     }            
+     50% {                
+        transform: translate(0px, -10px);            
+     }            
+     100% {                
+        transform: translate(0px, 0px);
+     }
+}
+
+@keyframes swing { 
+    0% {             
+        transform: translateX(0);            
+     }            
+     50% {                
+        transform: translateX(10px);            
+     }            
+     100% {                
+        transform: translateX(0px);
+     }
+}
+@-webkit-keyframes swing { 
+    0% {             
+        transform: translateX(0);            
+     }            
+     50% {                
+        transform: translateX(10px);            
+     }            
+     100% {                
+        transform: translateX(0px);
+     }
+}
+
+@keyframes light { 
+    0% {             
+        transform: translateX(0);            
+     }            
+     50% {                
+        transform: translateX(-10px);            
+     }            
+     100% {                
+        transform: translateX(0px);
+     }
+}
+
+@-webkit-keyframes light { 
+    0% {             
+        transform: translateX(0);            
+     }            
+     50% {                
+        transform: translateX(-10px);            
+     }            
+     100% {                
+        transform: translateX(0px);
+     }
+}
+@keyframes flower1
+{    
+    0% {transform: translate(0px, 0px) rotate(0deg); opacity: 0;}
+    25% {transform: translate(60px, 110px) rotate(120deg); opacity: 1;}
+    50% {transform: translate(120px, 220px) rotate(240deg);opacity: 1;}
+    60% {transform: translate(110px, 260px) rotate(300deg);opacity: 1;}
+    70% {transform: translate(100px, 310px) rotate(360deg);opacity: 1;}
+    80% {transform: translate(90px, 350px) rotate(420deg);opacity: 0.8;}
+    90% {transform: translate(80px, 400px) rotate(480deg);opacity: 0.6;}
+    100%{transform: translate(70px, 440px) rotate(520deg);opacity: 0;}
+}
+
+@-webkit-keyframes flower1 /*Safari and Chrome*/
+{
+    0% {transform: translate(0px, 0px) rotate(0deg);opacity: 0;}
+    25% {transform: translate(60px, 110px) rotate(120deg); opacity: 1;}
+    50% {transform: translate(120px, 220px) rotate(240deg);opacity: 1;}
+    60% {transform: translate(110px, 260px) rotate(300deg);opacity: 1;}
+    70% {transform: translate(100px, 310px) rotate(360deg);opacity: 1;}
+    80% {transform: translate(90px, 350px) rotate(420deg);opacity: 0.8;}
+    90% {transform: translate(80px, 400px) rotate(480deg);opacity: 0.6;}
+    100%{transform: translate(70px, 440px) rotate(520deg);opacity: 0;}
+}
+
+@keyframes flower2
+{    
+    0% {transform: translate(0px, 0px) rotate(0deg);opacity: 0;}
+    25% {transform: translate(-35px, 90px) rotate(-120deg);opacity: 1;}
+    50% {transform: translate(-70px, 180px) rotate(-240deg);opacity: 1;}
+    60% {transform: translate(-80px, 220px) rotate(-320deg);opacity: 1;}
+    70% {transform: translate(-90px, 260px) rotate(-360deg);opacity: 1;}
+    80% {transform: translate(-100px, 300px) rotate(-400deg);opacity: 0.8;}
+    90% {transform: translate(-110px, 340px) rotate(-440deg);opacity: 0.6;}
+    100%{transform: translate(-120px, 380px) rotate(-480deg);opacity: 0;}
+}
+
+@-webkit-keyframes flower2 /*Safari and Chrome*/
+{
+    0% {transform: translate(0px, 0px) rotate(0deg);opacity: 0;}
+    25% {transform: translate(-35px, 90px) rotate(-120deg);opacity: 1;}
+    50% {transform: translate(-70px, 180px) rotate(-240deg);opacity: 1;}
+    60% {transform: translate(-80px, 220px) rotate(-320deg);opacity: 1;}
+    70% {transform: translate(-90px, 260px) rotate(-360deg);opacity: 1;}
+    80% {transform: translate(-100px, 300px) rotate(-400deg);opacity: 0.8;}
+    90% {transform: translate(-110px, 340px) rotate(-440deg);opacity: 0.6;}
+    100%{transform: translate(-120px, 380px) rotate(-480deg);opacity: 0;}
+}
+
+@keyframes flower3
+{    
+    0% {transform: translate(0px, 0px) rotate(0deg); opacity: 0;}
+    25% {transform: translate(-40px, 75px) rotate(100deg);opacity: 1;}
+    50% {transform: translate(-80px, 150px) rotate(200deg);opacity: 1;}
+    60% {transform: translate(-100px, 170px) rotate(250deg);opacity: 1;}
+    70% {transform: translate(-80px, 200px) rotate(300deg);opacity: 1;}
+    80% {transform: translate(-60px, 230px) rotate(350deg);opacity: 0.8;}
+    90% {transform: translate(-40px, 260px) rotate(400deg);opacity: 0.6;}
+    100%{transform: translate(-20px, 300px) rotate(450deg);opacity: 0;}
+}
+
+@-webkit-keyframes flower3 /*Safari and Chrome*/
+{
+    0% {transform: translate(0px, 0px) rotate(0deg); opacity: 0;}
+    25% {transform: translate(-40px, 75px) rotate(100deg);opacity: 1;}
+    50% {transform: translate(-80px, 150px) rotate(200deg);opacity: 1;}
+    60% {transform: translate(-100px, 170px) rotate(250deg);opacity: 1;}
+    70% {transform: translate(-80px, 200px) rotate(300deg);opacity: 1;}
+    80% {transform: translate(-60px, 230px) rotate(350deg);opacity: 0.8;}
+    90% {transform: translate(-40px, 260px) rotate(400deg);opacity: 0.6;}
+    100%{transform: translate(-20px, 300px) rotate(450deg);opacity: 0;}
+}
+
+@keyframes flower4
+{    
+    0% {transform: translate(0px, 0px) rotate(0deg); opacity: 0;}
+    25% {transform: translate(50px, 75px) rotate(-85deg);opacity: 1;}
+    50% {transform: translate(100px, 150px) rotate(-170deg);opacity: 1;}
+    60% {transform: translate(120px, 180px) rotate(-200deg);opacity: 1;}
+    70% {transform: translate(140px, 210px) rotate(-230deg);opacity: 1;}
+    80% {transform: translate(160px, 240px) rotate(-260deg);opacity: 0.8;}
+    90% {transform: translate(180px, 270px) rotate(-290deg);opacity: 0.6;}
+    100%{transform: translate(200px, 300px) rotate(-320deg);opacity: 0;}
+}
+
+@-webkit-keyframes flower4 /*Safari and Chrome*/
+{
+    0% {transform: translate(0px, 0px) rotate(0deg); opacity: 0;}
+    25% {transform: translate(50px, 75px) rotate(-85deg);opacity: 1;}
+    50% {transform: translate(100px, 150px) rotate(-170deg);opacity: 1;}
+    60% {transform: translate(120px, 180px) rotate(-200deg);opacity: 1;}
+    70% {transform: translate(140px, 210px) rotate(-230deg);opacity: 1;}
+    80% {transform: translate(160px, 240px) rotate(-260deg);opacity: 0.8;}
+    90% {transform: translate(180px, 270px) rotate(-290deg);opacity: 0.6;}
+    100%{transform: translate(200px, 300px) rotate(-320deg);opacity: 0;}
+}
+@keyframes flower5
+{    
+    0% {transform: translate(0px, 0px) rotate(0deg);opacity: 0;}
+    25% {transform: translate(-15px, 50px) rotate(-50deg); opacity: 1;}
+    50% {transform: translate(-30px, 100px) rotate(-100deg);opacity: 1;}
+    60% {transform: translate(-37px, 120px) rotate(-120deg);opacity: 1;}
+    70% {transform: translate(-44px, 140px) rotate(-140deg);opacity: 1;}
+    80% {transform: translate(-51px, 160px) rotate(-160deg);opacity: 0.8;}
+    90% {transform: translate(-58px, 180px) rotate(-180deg);opacity: 0.6;}
+    100%{transform: translate(-65px, 200px) rotate(-200deg);opacity: 0;}
+}
+
+@-webkit-keyframes flower5 /*Safari and Chrome*/
+{
+    0% {transform: translate(0px, 0px) rotate(0deg);opacity: 0;}
+    25% {transform: translate(-15px, 50px) rotate(-50deg); opacity: 1;}
+    50% {transform: translate(-30px, 100px) rotate(-100deg);opacity: 1;}
+    60% {transform: translate(-37px, 120px) rotate(-120deg);opacity: 1;}
+    70% {transform: translate(-44px, 140px) rotate(-140deg);opacity: 1;}
+    80% {transform: translate(-51px, 160px) rotate(-160deg);opacity: 0.8;}
+    90% {transform: translate(-58px, 180px) rotate(-180deg);opacity: 0.6;}
+    100%{transform: translate(-65px, 200px) rotate(-200deg);opacity: 0;}
+}
+
